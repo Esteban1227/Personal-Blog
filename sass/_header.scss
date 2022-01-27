@@ -19,7 +19,29 @@
             justify-self: end;
         margin-right: 50px;
         span{
-            color: white;
+            color: $colorIconSocialNetwork;
+        }
+    }
+}
+.header-navBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    &__iconLogo{
+        margin-left: 50px;
+        img{
+            width: 220px;
+            margin-top: 10px;
+        }
+    }
+    &__iconMe{
+        display:flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 50px;
+        a{
+            color: black;
+            border-bottom:1px solid black ;
         }
     }
 }

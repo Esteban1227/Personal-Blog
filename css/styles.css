@@ -54,4 +54,39 @@ a {
 .header-socialNetworks__containerIcons span {
   color: white;
 }
+
+.header-navBar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+.header-navBar__iconLogo {
+  margin-left: 50px;
+}
+
+.header-navBar__iconLogo img {
+  width: 220px;
+  margin-top: 10px;
+}
+
+.header-navBar__iconMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.header-navBar__iconMe a {
+  color: black;
+  border-bottom: 1px solid black;
+}
 /*# sourceMappingURL=styles.css.map */
