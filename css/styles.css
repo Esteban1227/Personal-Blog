@@ -1,11 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap");
 body {
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 html {
@@ -88,5 +85,71 @@ a {
 .header-navBar__iconMe a {
   color: black;
   border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.home-body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.home {
+  background-image: url(../assets/img/Cover.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 83vh;
+}
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-container__text {
+  width: 60%;
+  margin-top: 100px;
+}
+
+.home-container__text--p {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-shadow: -2px 0px #47cfac;
+}
+
+.home-container__button {
+  margin-top: 100px;
+}
+
+.home-container__button--button {
+  font-size: 2rem;
+  border: none;
+  padding: 15px 30px;
+  background-color: #47cfac;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.home-container__button--button:hover {
+  background-color: rgba(71, 207, 173, 0.849);
 }
 /*# sourceMappingURL=styles.css.map */
