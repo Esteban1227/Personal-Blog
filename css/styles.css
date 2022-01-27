@@ -50,4 +50,8 @@ a {
   justify-self: end;
   margin-right: 50px;
 }
+
+.header-socialNetworks__containerIcons span {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
