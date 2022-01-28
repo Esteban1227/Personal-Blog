@@ -6,7 +6,8 @@
         "../sass/_variables.scss",
         "../sass/_reset.scss",
         "../sass/_header.scss",
-        "../sass/_home.scss"
+        "../sass/_home.scss",
+        "../sass/_blogs.scss"
     ],
     "names": [],
     "file": "styles.css"
