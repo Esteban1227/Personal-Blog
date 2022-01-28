@@ -1,8 +1,97 @@
+.blogs-main{
+    display: grid;
+}
 .containerNewBlogs{
+    background-color: #e6e9ed;
+    box-shadow: 7px 2px $colorShadow;
+    padding: 0 50px 40px;
+    &__blogNew{
+        padding: 0 50px 40px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 2fr;
+        &--h3{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
     &__blogImg{
+        grid-column: 1;
         &--img{
+            width: 85%;
+            border-radius: 10px;
         }
     }
     &__blogInfo{
+        grid-column: 2;
+        &--h2{
+            margin-top: 0;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        &--p{
+            font-size: 2rem;
+            margin-bottom: 35px;
+        }
+        &--button{
+            border: solid 1px $colorButtonG;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            box-shadow: 2px 2px$colorShadow;
+            &:hover{
+                transition: 0.3s;
+                background-color: $colorButtonGHover;
+                color: $colorButtonGHoverText;
+            }
+        }
+    }
+}
+.containerBlogs{
+    h3{
+        border-bottom:1px solid #cdd2da;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    &__article{
+        display: inline-block;
+        max-width: 30%;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        box-shadow: 2px 2px$colorShadow;
+        border-radius: 20px;
+        padding:0 0px 30px 10px;
+        p{
+            padding-left: 10px;
+            margin-bottom:35px ;
+            font-size: 1.5rem;
+        }
+        h4{
+            padding-left: 10px;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        img{
+            width: 100%;
+            border-top-left-radius:20px ;
+            border-top-right-radius:20px ;
+        }
+    }
+    &__button{
+        &--button{
+            border: solid 1px $colorButtonG;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: 500;
+            &:hover{
+                transition: 0.3s;
+                background-color: $colorButtonGHover;
+                color: $colorButtonGHoverText;
+            }
+        }
     }
 }

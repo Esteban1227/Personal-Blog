@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: $calorBackgroundFooter;
+    border-top:35px solid $calorBackgroundUpFooter ;
+    p{
+        color: $colorFooterText;
+    }
+}

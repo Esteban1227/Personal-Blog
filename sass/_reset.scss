@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
@@ -10,4 +11,8 @@ a{
     text-decoration: none;
     display: inline;
     color: black;
+}
+.grid-container{
+    max-width: 980px;
+    margin: auto;
 }
