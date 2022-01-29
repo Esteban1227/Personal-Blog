@@ -1,0 +1,55 @@
+.containerPerfil{
+    background-color: $calorBackgroundContainerContact;
+    box-shadow: 7px 2px $colorShadow;
+    padding: 0 50px 40px;
+}
+
+.containerMePerfil{
+    padding: 50px 50px 40px;
+    display: flex;
+    align-items: center;
+    &__containerImg{
+        &--img{
+            width: 300px;
+            border-radius: 10px;
+        }
+    }
+    &__containerInfo{
+        padding: 50px;
+        &--h1{
+            font-size: 2rem;
+            font-weight: 900;
+        }
+        &--p{
+            font-size: 1.5rem;
+        }
+    }
+}
+.projects{
+    padding: 0 50px 40px;
+    &__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__title{
+        &--h3{
+            padding: 20px;
+            font-size: 3.2rem;
+            font-weight: 700;
+            text-align: center;
+            border-bottom: 1px solid $colorLineBottomText;
+        }
+    }
+    &__article{
+        box-shadow: 2px 2px$colorShadow;
+        border-radius: 20px;
+        padding: 30px 10px;
+        margin-right: 10px;
+        &--h2{
+            font-size: 2rem;
+        }
+        &--p{
+            font-size: 1.5rem;
+        }
+    }
+}
