@@ -166,7 +166,7 @@ a {
 }
 
 .containerNewBlogs {
-  background-color: #e6e9ed;
+  background-color: #cdd2da;
   -webkit-box-shadow: 7px 2px #cdd2da;
           box-shadow: 7px 2px #cdd2da;
   padding: 0 50px 40px;
@@ -280,6 +280,111 @@ a {
   transition: 0.3s;
   background-color: rgba(71, 207, 173, 0.849);
   color: #ffff;
+}
+
+.blogpost__containerImg {
+  padding: 0 50px 40px;
+}
+
+.blogpost__containerImg--img {
+  width: 100%;
+}
+
+.blogpost__containerMain {
+  padding: 0 50px 40px;
+}
+
+.blogpost__containerMain--h3 {
+  font-size: 2rem;
+  border-bottom: solid 1px #cdd2da;
+  padding-bottom: 20px;
+}
+
+.blogpost__containerArticle--h2 {
+  font-size: 3.5rem;
+}
+
+.blogpost__containerArticle--p {
+  font-size: 1.5rem;
+}
+
+.containerContact {
+  background-color: #cdd2da;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  min-height: 250px;
+}
+
+.containerContact__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49.5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerContact__left--img {
+  width: 20%;
+}
+
+.containerContact__leftInfo {
+  width: 300px;
+  padding-left: 10px;
+}
+
+.containerContact__leftInfo--link {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: solid 1px black;
+  padding-bottom: 5px;
+}
+
+.containerContact__leftInfo--p {
+  font-size: 1.5rem;
+}
+
+.containerContact__right {
+  width: 49.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerContact__right--img {
+  width: 20%;
+}
+
+.containerContact__rightInfo {
+  width: 300px;
+  padding-left: 10px;
+}
+
+.containerContact__rightInfo--link {
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: solid 1px black;
+  padding-bottom: 5px;
+}
+
+.containerContact__rightInfo--p {
+  font-size: 1.5rem;
 }
 
 footer {

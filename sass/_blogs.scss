@@ -2,7 +2,7 @@
     display: grid;
 }
 .containerNewBlogs{
-    background-color: #e6e9ed;
+    background-color: $calorBackgroundContainerContact;
     box-shadow: 7px 2px $colorShadow;
     padding: 0 50px 40px;
     &__blogNew{
