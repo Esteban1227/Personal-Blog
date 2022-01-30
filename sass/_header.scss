@@ -24,11 +24,11 @@
     }
 }
 .header-navBar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
     height: 90px;
     &__iconLogo{
-        margin-left: 50px;
         img{
             width: 220px;
             margin-top: 10px;
@@ -38,7 +38,6 @@
         display:flex;
         align-items: center;
         justify-content: flex-end;
-        margin-right: 50px;
         a{
             color: black;
             border-bottom:1px solid black ;

@@ -61,15 +61,14 @@ a {
 }
 
 .header-navBar {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
   height: 90px;
-}
-
-.header-navBar__iconLogo {
-  margin-left: 50px;
 }
 
 .header-navBar__iconLogo img {
@@ -87,7 +86,6 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 50px;
 }
 
 .header-navBar__iconMe a {
@@ -209,7 +207,7 @@ a {
 }
 
 .containerNewBlogs__blogInfo--p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 35px;
 }
 
@@ -488,11 +486,20 @@ footer p {
     -ms-grid-row: 2;
     grid-row: 2;
   }
+  .containerNewBlogs__blogImg--img {
+    width: 100%;
+  }
   .containerNewBlogs__blogInfo {
     -ms-grid-column: 1;
     grid-column: 1;
     -ms-grid-row: 3;
     grid-row: 3;
+  }
+  .containerNewBlogs__blogInfo--h2 {
+    font-size: 2.8rem;
+  }
+  .containerNewBlogs__blogInfo--p {
+    font-size: 1.8rem;
   }
   .containerBlogs__article {
     max-width: 45%;
@@ -515,11 +522,33 @@ footer p {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .home-container__button {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .header-socialNetworks__containerIcons {
+    margin-right: 0;
+  }
+  .containerNewBlogs {
+    padding: 0;
+  }
+  .containerNewBlogs__blogInfo--h2 {
+    font-size: 2.5rem;
+  }
+  .containerNewBlogs__blogInfo--p {
+    font-size: 1.5rem;
+  }
+  .header-navBar__iconLogo {
+    margin-left: 0;
+  }
+  .header-navBar__iconLogo img {
+    width: 200px;
+  }
   .containerBlogs__article {
     max-width: 95%;
+    margin-left: 5px;
   }
   .containerPerfil {
     padding-left: 0;
@@ -528,6 +557,24 @@ footer p {
   .containerMePerfil {
     padding-left: 0;
     padding-right: 0;
+  }
+  .home-container__text {
+    width: 100%;
+  }
+  .home-container__text--p {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containerBlogs__article {
+    width: 92%;
+  }
+  .containerNewBlogs__blogInfo--h2 {
+    font-size: 2.4rem;
+  }
+  .containerNewBlogs__blogInfo--p {
+    font-size: 1.4rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
