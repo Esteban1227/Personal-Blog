@@ -1,0 +1,60 @@
+.containerContact{
+    border-bottom:solid 1px $colorLine;
+    background: rgb(55,67,84);
+    background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 250px;
+    &__left{
+        display: flex;
+        width: 49.5%;
+            justify-content: center;
+            align-items: center;
+            &--img{
+                width: 100px;
+            }
+    }
+    &__leftInfo{
+        width: 300px;
+        padding-left: 20px;
+        &--link{
+            color: $colorMainText;
+            font-size: 2rem;
+            font-weight: 700;
+            border-bottom:solid 1px $colorMainText;
+            padding-bottom: 5px;
+        }
+        &--p{
+            color: $colorSecundaryText;
+            font-size: 1.4rem;
+        }
+    }
+    &__right{
+        border-left: solid 1px $colorLine;
+        width: 49.5%;
+        padding-left: 10px;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        &--img{
+            width: 100px;
+        }
+    }
+    &__rightInfo{
+        width: 300px;
+        padding-left: 20px;
+        &--link{
+            color: $colorMainText;
+            font-size: 2rem;
+            font-weight: 700;
+            border-bottom:solid 1px $colorMainText;
+            padding-bottom: 5px;
+        }
+        &--p{
+            color: $colorSecundaryText;
+            font-size: 1.4rem;
+        }
+    }
+}

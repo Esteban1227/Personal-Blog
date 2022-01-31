@@ -1,6 +1,7 @@
 .containerPerfil{
-    background-color: $calorBackgroundContainerContact;
-    box-shadow: 7px 2px $colorShadow;
+    background: rgb(55,67,84);
+    background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
+    box-shadow: 7px 2px $colorLine;
     padding: 0 50px 40px;
 }
 
@@ -11,44 +12,52 @@
     &__containerImg{
         &--img{
             width: 300px;
-            border-radius: 10px;
+            border-radius: 50%;
         }
     }
     &__containerInfo{
         padding: 50px;
-        &--h1{
+        &--h1{ 
+            color: $colorSecundaryText;
             font-size: 2rem;
             font-weight: 900;
         }
-        &--p{
+        &--p{ 
+            color: $colorSecundaryText;
             font-size: 1.5rem;
         }
     }
 }
 .projects{
-    padding: 0 50px 40px;
+    border-bottom:1px solid $colorLine;
+    padding: 0 50px 100px;
     &__container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     &__title{
         &--h3{
+            color: $colorMainText;
             padding: 20px;
             font-size: 3.2rem;
             font-weight: 700;
             text-align: center;
-            border-bottom: 1px solid $colorLineBottomText;
+            border-bottom: 1px solid $colorLine;
         }
     }
     &__article{
-        box-shadow: 2px 2px$colorShadow;
+        background: rgb(55,67,84);
+        background: linear-gradient(330deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
+        box-shadow: 2px 2px $colorLine;
         border-radius: 20px;
-        padding: 30px 10px;
+        padding: 30px 10px 30px 20px;
         margin-right: 10px;
-        &--h2{
+        &--h2{ 
+            color: $colorSecundaryText;
             font-size: 2rem;
         }
-        &--p{
+        &--p{ 
+            color: $colorSecundaryText;
             font-size: 1.5rem;
         }
     }

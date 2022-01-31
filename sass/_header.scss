@@ -1,14 +1,13 @@
 .header{
-    width: 100%;
     height: 140px;
     display: grid;
         grid-template-rows: 1fr 1fr;
+    border-bottom:solid 1px $colorLine;
 }
 .header-socialNetworks{
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: $calorBackgroundSocialNetwork;
     &__containerIcons{
         width: 300px;
         height: auto;
@@ -24,6 +23,7 @@
     }
 }
 .header-navBar{
+    
     display: flex;
     justify-content: space-between;
     width: 95%;
@@ -39,8 +39,8 @@
         align-items: center;
         justify-content: flex-end;
         a{
-            color: black;
-            border-bottom:1px solid black ;
+            color: $colorMainText;
+            border-bottom:1px solid  $colorMainText ;
             font-size: 1.5rem;
             font-weight: 500;
         }

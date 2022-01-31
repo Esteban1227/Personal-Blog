@@ -2,8 +2,9 @@
     display: grid;
 }
 .containerNewBlogs{
-    background-color: $calorBackgroundContainerContact;
-    box-shadow: 7px 2px $colorShadow;
+    background: rgb(55,67,84);
+    background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
+    box-shadow: 7px 2px $colorLine;
     padding: 0 50px 40px;
     &__blogNew{
         padding: 0 50px 40px;
@@ -11,6 +12,7 @@
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 2fr;
         &--h3{
+            color: $colorMainText;
             font-size: 2rem;
             font-weight: 700;
         }
@@ -25,11 +27,13 @@
     &__blogInfo{
         grid-column: 2;
         &--h2{
+            color: $colorMainText;
             margin-top: 0;
             font-size: 3rem;
             font-weight: 700;
         }
         &--p{
+            color: $colorSecundaryText;
             font-size: 1.5rem;
             margin-bottom: 35px;
         }
@@ -39,7 +43,7 @@
             padding: 10px 20px;
             font-size: 1.2rem;
             font-weight: 500;
-            box-shadow: 2px 2px$colorShadow;
+            box-shadow: 2px 2px $colorLine;
             &:hover{
                 transition: 0.3s;
                 background-color: $colorButtonGHover;
