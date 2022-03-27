@@ -1,6 +1,6 @@
 .blogpost{
     &__containerImg{
-        padding: 0 50px 40px;
+        padding: 40px 50px 40px;
         &--img{
             width: 100%;
         }
@@ -8,16 +8,19 @@
     &__containerMain{
         padding: 0 50px 40px;
         &--h3{
+            color:$colorMainText;
             font-size: 2rem;
-            border-bottom: solid 1px $colorLineBottomText;
+            border-bottom: solid 1px $colorLine;
             padding-bottom: 20px;
         }
     }
     &__containerArticle{
         &--h2{
+            color:$colorMainText;
             font-size: 3.5rem;
         }
         &--p{
+            color:$colorSecundaryText;
             font-size: 1.5rem;
         }
     }

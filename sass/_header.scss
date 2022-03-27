@@ -18,20 +18,21 @@
             justify-self: end;
         margin-right: 50px;
         span{
-            color: $colorIconSocialNetwork;
+            color: $colorIcon;
         }
     }
 }
 .header-navBar{
-    
     display: flex;
     justify-content: space-between;
     width: 95%;
     height: 90px;
     &__iconLogo{
+        margin-left: 10px;
         img{
-            width: 220px;
-            margin-top: 10px;
+            width: 80px;
+            border: solid 2px $colorLine;
+            border-radius:50% ;
         }
     }
     &__iconMe{

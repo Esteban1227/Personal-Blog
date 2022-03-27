@@ -38,23 +38,27 @@
             margin-bottom: 35px;
         }
         &--button{
-            border: solid 1px $colorButtonG;
+            background: rgb(55,67,84);
+            background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
+            border: solid 1px $colorLine    ;
             border-radius: 5px;
             padding: 10px 20px;
+            color: $colorSecundaryText;
             font-size: 1.2rem;
             font-weight: 500;
-            box-shadow: 2px 2px $colorLine;
             &:hover{
                 transition: 0.3s;
-                background-color: $colorButtonGHover;
-                color: $colorButtonGHoverText;
+                color: $colorMainText;
+                background: rgba(55, 67, 84, 0.822);
+                background: linear-gradient(288deg, rgba(55, 67, 84, 0.808) 0%, rgba(38, 47, 59, 0.774) 17%, rgba(13, 17, 23, 0.788) 43%);
             }
         }
     }
 }
 .containerBlogs{
     h3{
-        border-bottom:1px solid #cdd2da;
+        color: $colorMainText;
+        border-bottom:1px solid $colorLine;
         padding-bottom: 20px;
         text-align: center;
         font-size: 2rem;
@@ -65,15 +69,17 @@
         margin-top: 10px;
         margin-left: 10px;
         margin-bottom: 50px;
-        box-shadow: 2px 2px$colorShadow;
+        box-shadow: 2px 2px $colorLine;
         border-radius: 20px;
         padding:0 0px 30px 10px;
         p{
+            color: $colorSecundaryText;
             padding-left: 10px;
             margin-bottom:35px ;
             font-size: 1.5rem;
         }
         h4{
+            color: $colorMainText;
             padding-left: 10px;
             font-size: 2rem;
             font-weight: 700;
@@ -86,15 +92,19 @@
     }
     &__button{
         &--button{
-            border: solid 1px $colorButtonG;
+            background: rgb(55,67,84);
+            background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
+            border: solid 1px $colorLine    ;
             border-radius: 5px;
             padding: 10px 20px;
+            color: $colorSecundaryText;
             font-size: 1.2rem;
             font-weight: 500;
             &:hover{
                 transition: 0.3s;
-                background-color: $colorButtonGHover;
-                color: $colorButtonGHoverText;
+                color: $colorMainText;
+                background: rgba(55, 67, 84, 0.822);
+                background: linear-gradient(288deg, rgba(55, 67, 84, 0.808) 0%, rgba(38, 47, 59, 0.774) 17%, rgba(13, 17, 23, 0.788) 43%);
             }
         }
     }

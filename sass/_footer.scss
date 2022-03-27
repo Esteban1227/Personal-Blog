@@ -6,8 +6,8 @@ footer{
     height: 80px;
     background: rgb(55,67,84);
     background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
-    border-top:35px solid $colorMain ;
+    border-top:35px solid $colorFooter ;
     p{
-        color: $colorFooterText;
+        color: $colorSecundaryText;
     }
 }

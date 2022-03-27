@@ -6,7 +6,7 @@
         right: 0;
 }
 .home{
-    background-image: url('../assets/img/Cover.png');
+    background-image: url('../assets/img/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg');
     background-size:cover ;
     background-position: center;
     background-repeat:no-repeat ;
@@ -22,26 +22,31 @@
         width: 60%;
         margin-top: 100px;
         &--p{
-            color: white;
+            color: $colorSecundaryText;
             text-align: center;
             font-size: 3rem;
             font-weight: 700;
             letter-spacing: 10px;
-            text-shadow: -2px 0px $colorShadowTextHome;
+            text-shadow: -2px 0px $colorLine;
         }
     }
     &__button{
         margin-top: 100px;
         &--button{
+            color: $colorSecundaryText;
             font-size: 2rem;
             border: none;
             padding: 15px 30px;
-            background-color: $colorButtonG;
+            background: rgb(55,67,84);
+            background: linear-gradient(288deg, rgba(55,67,84,1) 0%, rgba(38,47,59,1) 17%, rgba(13,17,23,1) 43%);
             border-radius: 10px;
             cursor: pointer;
             font-weight: 700;
             &:hover{
-                background-color: $colorButtonGHover;
+                color: $colorMainText;
+                transition: 0.3s;
+                background: rgba(55, 67, 84, 0.822);
+                background: linear-gradient(288deg, rgba(55, 67, 84, 0.808) 0%, rgba(38, 47, 59, 0.774) 17%, rgba(13, 17, 23, 0.788) 43%);
             }
         }
     }

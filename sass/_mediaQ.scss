@@ -71,11 +71,9 @@
         }
     }
     .header-navBar{
+        justify-content: space-around;
         &__iconLogo{
             margin-left: 0;
-            img{
-                width: 200px;
-            }
         }
     }
     .header-socialNetworks{
